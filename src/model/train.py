@@ -12,6 +12,7 @@ from sklearn.linear_model import LogisticRegression
 # define functions
 def main(args):
 
+    
     mlflow.autolog()
 
     # read data
