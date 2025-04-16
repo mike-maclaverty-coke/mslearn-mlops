@@ -15,5 +15,5 @@ jobs:
       uses: azure/login@v1
       with:
         creds: ${{secrets.AZURE_CREDENTIALS}}
-
-
+    - name: Submit ML job
+      run: python src/model/train.py
